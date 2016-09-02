@@ -43,7 +43,7 @@ public class ListAdapterNew extends BaseAdapter {
         name.setText(cards.get(i).getName());
 
         TextView time = (TextView) view.findViewById(R.id.timeText);
-        time.setText(cards.get(i).getTime());
+        time.setText(cards.get(i).getDate()+" "+cards.get(i).getTime());
 
         ImageView image = (ImageView) view.findViewById(R.id.img);
         image.setImageResource(cards.get(i).getImage());
