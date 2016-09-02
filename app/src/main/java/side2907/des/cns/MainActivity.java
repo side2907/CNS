@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 //        listAdapter = new ListAdapterNew(loadDataAll());
 //        listOfCurrent.setAdapter(listAdapter);
 //        currentDate="";
-//    }
+//    } 
 //
 //    private List<CardBlank> loadDataAll() {
 //        profiles.clear();
